@@ -27,7 +27,7 @@ app.set('port', port);
 var server = http.createServer(app);
 
 
-//Conexión a base de datos de mongo
+//MongoDB conection setup
 const mongoose = require('mongoose')
 mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true })
 const db = mongoose.connection

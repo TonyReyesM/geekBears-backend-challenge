@@ -31,6 +31,8 @@ Implement assignment using:
 **There is no restriction on how your encode/decode algorithm should work. You just need to make sure that a URL can be encoded to a short URL and the short URL can be decoded to the original URL and the short URL code should be less than 8 characters.**
 
 # My (Antonio Reyes Montaño) documentation  here:
-- From development stage run: npm run startDev
-- Connected to MongoDB Database locally (databse_url in .env file)
-- Created url Schema and model in models/URL.js
+- For development stage run: npm run startDev. Otherwise run npm start script.
+- Connected to MongoDB Database locally (databse_url in .env file. Erased the .env file from .gitignore for you to see). Setup in bin/www.
+- Created url Schema and model in models/URL.js.
+- Shortener controller route set in app.js.
+- Didn't have time to finish url encoding and decoding methods
